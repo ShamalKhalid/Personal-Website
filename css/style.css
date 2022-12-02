@@ -10,6 +10,7 @@ body{
   font-family: "Sacramento",cursive;
   font-size: 6.25em;
   color: #66BFBF;
+
 }
 h2{
   margin: 0;
@@ -38,19 +39,18 @@ h3{
 }
 .bottom-cloud{
   position: absolute;
+  left: 400px;
+  top: 380px;
 }
 .top-cloud{
   position: absolute;
-  right: 440px;
-  top: 80px;
+  right: 320px;
+  top: 50px;
 }
 .top-container{
   background-color: #EAF6F6;
   position: relative;
   padding-top: 30px;
-}
-.middle-container {
-  margin: 100px,0;
 }
 .profile{
   width: 50%;
@@ -87,6 +87,10 @@ h3{
   float: left;
   margin-right: 30px;
 }
+.head-skill{
+  border-radius: 50%
+  text-align:center;
+}
 .design{
   height: 150px;
   width: 150px;
@@ -104,6 +108,8 @@ a{
 .footer-credit{
   padding-bottom: :20px;
   color: #EAF6F6;
+  font-size:0.75em;
+  padding: 20px 0;
 }
 .contact-me{
   padding-bottom: 50px;
